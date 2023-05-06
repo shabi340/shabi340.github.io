@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    background-color: #fff;
 }
 
 .container {
@@ -153,7 +154,7 @@ header h2 {
 
 /* Contact */
 #contact {
-    background-color: #333;
+    background-color: #fff;
     padding: 50px;
     display: flex;
     justify-content: center;
