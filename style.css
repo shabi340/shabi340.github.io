@@ -1,76 +1,185 @@
-/* Set background color and font family */
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  background-color: #1a1a1a;
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
 }
 
-/* Set header styles */
-header {
-  padding: 2rem;
-  text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
 }
 
-header h1 {
-  font-size: 3rem;
-  color: #fff;
-  margin: 0;
+a {
+    color: #0077c2;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-header h2 {
-  font-size: 2rem;
-  color: #bbb;
-  margin: 0;
+a:hover {
+    color: #005fa3;
 }
 
-/* Set navigation bar styles */
+ul {
+    list-style: none;
+}
+
+/* Navigation bar */
 nav {
-  background-color: #333;
-  padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav li {
-  margin: 0 1rem;
+    margin: 0 10px;
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.2s;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 nav a:hover {
-  color: #bbb;
+    color: #fff;
 }
 
-/* Set content styles */
-main {
-  padding: 2rem;
+/* Header */
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
-/* Set footer styles */
-footer {
-  background-color: #333;
-  padding: 1rem;
-  text-align: center;
-  color: #fff;
-  font-size: 1.2rem;
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
 }
 
-footer a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s;
+header h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px #000;
 }
 
-footer a:hover {
-  color: #bbb;
+/* About */
+#about {
+    background-color: #f5f5f5;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Skills */
+#skills {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills li {
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Projects */
+#projects {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#projects ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects li {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#projects a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#projects p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Contact */
+#contact {
+    background-color: #333;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact li {
+margin: 20px 0;
+font-size: 1.2rem;
+color: #fff;
+}
+
+#contact li a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s ease-in-out;
+}
+
+#contact li a:hover {
+color: #c0c0c0;
 }
