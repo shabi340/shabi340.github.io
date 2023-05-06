@@ -1,44 +1,76 @@
-header {
-  background-color: #003366;
-  color: white;
-  padding: 20px;
+/* Set background color and font family */
+body {
+  background-color: #1a1a1a;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* Set header styles */
+header {
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 2rem;
+  color: #bbb;
+  margin: 0;
+}
+
+/* Set navigation bar styles */
 nav {
-  background-color: #cccccc;
-  padding: 10px;
+  background-color: #333;
+  padding: 1rem;
 }
 
 nav ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 20px;
+  margin: 0 1rem;
 }
 
-nav li a {
-  display: block;
-  color: #333333;
-  text-align: center;
-  padding: 10px;
+nav a {
+  color: #fff;
   text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s;
 }
 
-nav li a:hover {
-  background-color: #f2f2f2;
+nav a:hover {
+  color: #bbb;
 }
 
-section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background-color: #f2f2f2;
+/* Set content styles */
+main {
+  padding: 2rem;
 }
 
-section h2 {
-  margin-top: 0;
+/* Set footer styles */
+footer {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #bbb;
 }
