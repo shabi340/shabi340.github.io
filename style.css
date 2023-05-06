@@ -1,0 +1,44 @@
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  background-color: #cccccc;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  display: block;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #f2f2f2;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+section h2 {
+  margin-top: 0;
+}
