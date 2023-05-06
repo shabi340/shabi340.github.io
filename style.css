@@ -71,7 +71,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #333;
+    color: #000;
 }
 
 header h1 {
