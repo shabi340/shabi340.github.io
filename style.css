@@ -172,11 +172,11 @@ header h2 {
 #contact li {
 margin: 20px 0;
 font-size: 1.2rem;
-color: #fff;
+color: #333;
 }
 
 #contact li a {
-color: #fff;
+color: #333;
 text-decoration: none;
 transition: color 0.3s ease-in-out;
 }
