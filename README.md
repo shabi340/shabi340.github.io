@@ -1,6 +1,7 @@
 # Hi there, I'm Shabista Yaseen Patne 👋
 
-## I am a Data Analyst with a quirky sense of humor and 2 years of experience as a Software Engineer, specializing in Oracle EBS HRMS Techno-Functional and Taleo Consultant. My expertise lies in requirement analysis and enhancements, and I have a strong foundation in writing efficient code and debugging large codebases, as evidenced by successful project completions.
+### I am a Data Analyst with a quirky sense of humor and 2 years of experience as a Software Engineer, specializing in Oracle EBS HRMS Techno-Functional and Taleo Consultant. My expertise lies in requirement analysis and enhancements, and I have a strong foundation in writing efficient code and debugging large codebases, as evidenced by successful project completions.
+
 
 
 ## 🤖 Technical Skills
