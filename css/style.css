@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-  --primary: #00B87B;
-  --secondary: #314355;
-  --light: #F2F2F2;
-  --dark: #2C3E50;
+  --primary: #A0EFFF;
+  --secondary: #FFD700;
+  --light: #D9F7FF;
+  --dark: #E6B800;
 }
 
 #spinner {
@@ -58,8 +58,10 @@
 }
 
 .btn.btn-primary {
-  color: #FFFFFF;
+    background-color: var(--secondary) !important;
+    color: #FFFFFF !important;
 }
+
 
 .typed-cursor {
   font-size: 25px;
@@ -151,7 +153,6 @@
 .service-item {
   padding: 30px;
   text-align: center;
-  background: var(--secondary);
 }
 
 .service-item i {
@@ -160,13 +161,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--light);
-  color: var(--primary);
+  background: #A0EFFF; /* Bright Pastel Blue */
+  color: #FFD700; /* Bright Yellow */
   transition: .5s;
 }
 
 .service-item:hover i {
-  background: var(--primary);
+  background: var(--secondary);
   color: var(--light);
 }
 
@@ -215,4 +216,20 @@
 
 .testimonial-carousel .owl-dot.active {
   background: var(--primary);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+.text-dark {
+    color: var(--dark) !important;
 }
